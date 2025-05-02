@@ -12,3 +12,6 @@ az network public-ip create --resource-group project-1 --name workstation --vers
 sudo dnf list all | grep ansible
 sudo dnf install python3.12 python3.12-pip -y
 sudo pip3.12 install ansible
+
+Azure VM delete from CLI
+az vm delete --name <VM_NAME> --resource-group <RESOURCE_GROUP> --yes
