@@ -8,3 +8,7 @@ anilkumar.mallavarapu429@gmail.com
 Azure public IP Creation with CLI
 az login
 az network public-ip create --resource-group project-1 --name workstation --version IPv4 --sku Basic --allocation-method Dynamic
+
+sudo dnf list all | grep ansible
+sudo dnf install python3.12 python3.12-pip -y
+sudo pip3.12 install ansible
