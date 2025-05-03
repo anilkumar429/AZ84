@@ -15,3 +15,4 @@ sudo pip3.12 install ansible
 
 Azure VM delete from CLI
 az vm delete --name <VM_NAME> --resource-group <RESOURCE_GROUP> --yes
+az vm delete --name frontend-dev --resource-group project-1 --yes
