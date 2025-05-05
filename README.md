@@ -4,6 +4,7 @@ First editing in file for testing
 
 
 https://us06web.zoom.us/j/81103813397#success
+87941171596
 anilkumar.mallavarapu429@gmail.com
 Azure public IP Creation with CLI
 az login
