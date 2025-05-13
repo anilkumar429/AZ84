@@ -14,3 +14,9 @@ sudo pip3.12 install ansible
 Azure VM delete from CLI
 az vm delete --name <VM_NAME> --resource-group <RESOURCE_GROUP> --yes
 az vm delete --name frontend-dev --resource-group project-1 --yes
+
+#vault Installation
+sudo yum install -y yum-utils
+sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
+sudo yum -y install vault
+sudo pip3.12 install hvac
