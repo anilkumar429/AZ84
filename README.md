@@ -20,3 +20,6 @@ sudo yum install -y yum-utils
 sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
 sudo yum -y install vault
 sudo pip3.12 install hvac
+
+https://helm.sh/docs/intro/install/
+curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | sudo bash
