@@ -23,3 +23,5 @@ sudo pip3.12 install hvac
 
 https://helm.sh/docs/intro/install/
 curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | sudo bash
+
+https://external-secrets.io/latest/introduction/getting-started/ - getting secrets to kubernetes from vault.
